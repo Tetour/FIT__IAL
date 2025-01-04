@@ -1009,7 +1009,7 @@
             "__type__": "Note",
             "fields": [
                 "Sekvenční metody implementace tabulky",
-                "<ul><li><div>Sekvenční vyhledávání v neseřazeném poli se zarážkou</div></li><li><div>Sekvenční vyhledávání v poli s adaptivním uspořádáním podle četnosti vyhledání</div></li><li><div>Sekvenční vyhledávání v poli seřazeném podle pravděpodobnosti vyhledání klíče</div></li><li><div>Sekvenční vyhledávání v seřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli</div></li></ul>"
+                "<ul><li><div>Sekvenční vyhledávání v poli s adaptivním uspořádáním podle četnosti vyhledání</div></li><li><div>Sekvenční vyhledávání v poli seřazeném podle pravděpodobnosti vyhledání klíče</div></li><li><div>Sekvenční vyhledávání v seřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli se zarážkou</div></li></ul>"
             ],
             "guid": "E`S9j$ID(I",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
