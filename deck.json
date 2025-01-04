@@ -1,15 +1,15 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "243ca7ac-caa8-11ef-b41a-c7dc14239424",
-    "deck_config_uuid": "eca00174-15c4-11ef-9bed-f71adc4b3557",
+    "crowdanki_uuid": "f527012a-ca01-11ef-b872-93b7a8789605",
+    "deck_config_uuid": "b179936c-ca00-11ef-b872-93b7a8789605",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "eca00174-15c4-11ef-9bed-f71adc4b3557",
+            "crowdanki_uuid": "b179936c-ca00-11ef-b872-93b7a8789605",
             "desiredRetention": 0.9,
             "dyn": false,
             "easyDaysPercentages": [],
@@ -63,7 +63,7 @@
             "sm2Retention": 0.9,
             "stopTimerOnAnswer": false,
             "timer": 0,
-            "waitForAudio": true,
+            "waitForAudio": false,
             "weightSearch": ""
         }
     ],
@@ -80,9 +80,7 @@
         "paste-1bb7ba121bc8862c34a2a9b06a1960c6a836fbab.jpg",
         "paste-26f7a0c5b919afda7d62d1f29cc8c9401b3c8601.jpg",
         "paste-4d771ab9606902ff423b2a5957d71e3a5bb71d82.jpg",
-        "paste-530d23f4dd50429179d3f8158ad9508695dbb0ee.jpg",
         "paste-54108eaa87976cff1bd66e5c491f4e5fdc59dca8.jpg",
-        "paste-56f76f4978deded2062757ba3f141b1e61478cfa.jpg",
         "paste-56ffe1de8c19f8dae43d30b8d60a8ea6d890cc0a.jpg",
         "paste-586eeb6547fb971027ac4efdbeb5f21ab2659d3a.jpg",
         "paste-5d3f25802bf8f134d0d3576fe64cd6dc1e681e31.jpg",
@@ -93,24 +91,18 @@
         "paste-7ac3e1dca3b3b91a1b8a1206173e4076ab53c145.jpg",
         "paste-7dce6d1df349e5f936a0df0ec7a771ea02e6f136.jpg",
         "paste-887344d7f248cfea33b290a0aade478f240d27e5.jpg",
-        "paste-8ade1144a9e0a0bffa585058a1ad1b887c372a1c.jpg",
         "paste-8bfca3893340e67724a225901573abcbbf758884.jpg",
         "paste-90c1197b255a1e64f46baf28181e63af7810012b.jpg",
         "paste-93dac68a2fab632fb82a72a7045f8d8f91c6c75e.jpg",
-        "paste-976efc024f242fc74d57968891933070c5cd17a4.jpg",
         "paste-9b81b8e83ddca634ca0c3f391f7e5f0cc997efeb.jpg",
         "paste-9fd8f3ad3e626c36cde41ad147dfe1773f1f6e7e.jpg",
         "paste-ae50889d65d96d6deb2c035ac7a90dc39e985839.jpg",
-        "paste-c2c7a381da649a88b546b0d844d0c02e63f1a01c.jpg",
         "paste-c6d212c5b897d1d6f9ba004b4f257957ba2562e8.jpg",
         "paste-c700c780bfa4e5a21869efa0ab35eb3eb07136c3.jpg",
         "paste-cf8465ad060b60098b9ecc1db0b9ff7edbc50444.jpg",
         "paste-ddb8d81e10087ea562d2ad46fbbf61e81d84f133.jpg",
         "paste-e03410cd686c224a49854801b18be3724a24357e.jpg",
-        "paste-e0efcb491e4757ed039dbc7a584844c2c7ed3ed2.jpg",
-        "paste-f32c6ade5d0b81a80e63964c8dab4317764c7df6.jpg",
-        "paste-fb8d9637aabc01d8d51f9d7af64cd24f0eef97b0.jpg",
-        "paste-fc4e1fc701ba0f66fe28c804e04e6b560b707a02.jpg"
+        "paste-f32c6ade5d0b81a80e63964c8dab4317764c7df6.jpg"
     ],
     "name": "FIT::IAL",
     "newLimit": null,
@@ -156,7 +148,6 @@
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
             "name": "Basic+",
-            "originalId": 1663855674035,
             "req": [
                 [
                     0,
@@ -1002,66 +993,6 @@
                 "<img src=\"paste-cf8465ad060b60098b9ecc1db0b9ff7edbc50444.jpg\">"
             ],
             "guid": "A8hLhySAk~",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Sekvenční metody implementace tabulky",
-                "<ul><li><div>Sekvenční vyhledávání v neseřazeném poli se zarážkou</div></li><li><div>Sekvenční vyhledávání v poli s adaptivním uspořádáním podle četnosti vyhledání</div></li><li><div>Sekvenční vyhledávání v poli seřazeném podle pravděpodobnosti vyhledání klíče</div></li><li><div>Sekvenční vyhledávání v seřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli</div></li></ul>"
-            ],
-            "guid": "E`S9j$ID(I",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Další Metody implementace tabulky",
-                "<ul><li>Binární vyhledávání v seřazeném poli</li><ul><li>normální binární vyhledávání</li><li>Djikstrova varianta binárního vyhledávání</li></ul><li>Binární vyhledávací stromy</li><li>Stromy s více klíči ve vrcholech</li><li>Hashovací tabulky</li></ul>"
-            ],
-            "guid": "N9|G<jNw;C",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Vyhledávací algorimty",
-                "<ul><li>Základní struktura<br><img src=\"paste-c2c7a381da649a88b546b0d844d0c02e63f1a01c.jpg\"><br></li><li>Ošetření konce cyklu<br><img src=\"paste-e0efcb491e4757ed039dbc7a584844c2c7ed3ed2.jpg\"><img src=\"paste-56f76f4978deded2062757ba3f141b1e61478cfa.jpg\"><br><img src=\"paste-976efc024f242fc74d57968891933070c5cd17a4.jpg\"><br></li></ul>"
-            ],
-            "guid": "K.%;pW3b*f",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Sekvenční vyhledávání - Search",
-                "<img src=\"paste-8ade1144a9e0a0bffa585058a1ad1b887c372a1c.jpg\"><br>Pro vkládání<br><img src=\"paste-530d23f4dd50429179d3f8158ad9508695dbb0ee.jpg\">"
-            ],
-            "guid": "I^2.*Ptb5`",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Sekvenční vyhledávání - Insert",
-                "<img src=\"paste-fb8d9637aabc01d8d51f9d7af64cd24f0eef97b0.jpg\">"
-            ],
-            "guid": "f%,{,eRK!{",
-            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Sekvenční vyhledávání - Delete",
-                "<img src=\"paste-fc4e1fc701ba0f66fe28c804e04e6b560b707a02.jpg\"><br>Lze implementovat zaslepením<br><ul><li>Klíč rušené položky přepsán hodnotou, která nikdy nebude vyhledávána</li><li>Snižuje aktivní kapacitu tabulky</li></ul>"
-            ],
-            "guid": "JU}hlHQ:J{",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         }
