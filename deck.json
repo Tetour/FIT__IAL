@@ -118,7 +118,7 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "crowdanki_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
                 {
@@ -150,27 +150,12 @@
                     "size": 20,
                     "sticky": false,
                     "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": -8822803183579856227,
-                    "name": "ankihub_id",
-                    "ord": 2,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic+ (Shared FIT - IAL / vrska.adam@protonmail.com)",
+            "name": "Basic+",
             "originalId": 1663855674035,
             "req": [
                 [
@@ -184,7 +169,7 @@
             "sortf": 0,
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<!-- BEGIN ANKIHUB MODFICATIONS -->\n{{#ankihub_id}}\n<a class='ankihub-view-note'\n    href='https://app.ankihub.net/decks/notes/{{ankihub_id}}'>\n    View Note on AnkiHub\n</a>\n\n<style>\n.ankihub-view-note {\n    display: none;\n}\n\n.mobile .ankihub-view-note\n  {\n    display: block;\n    left: 50%;\n    margin-right: -50%;\n    padding: 8px;\n    border-radius: 50px;\n    background-color: #cde3f8;\n    font-size: 12px;\n    color: black;\n    text-decoration: none;\n}\n\n/* AnkiDroid (Android)\nThe button is fixed to the bottom of the screen. */\n.android .ankihub-view-note {\n    position: fixed;\n    bottom: 5px;\n    transform: translate(-50%, -50%);\n}\n\n/* AnkiMobile (IPhone)\nposition: fixed doesn't work on AnkiMobile, so the button is just below the content instead. */\n.iphone .ankihub-view-note,\n.ipad .ankihub-view-note {\n    position: relative;\n    transform: translate(-50%, 0);\n    width: fit-content;\n    margin-top: 20px;\n}\n</style>\n\n<script>\n    if(document.querySelector(\"html\").classList.contains(\"android\")) {\n        // Add a margin to the bottom of the card content so that the button doesn't\n        // overlap the content.\n        var container = document.querySelector('#qa');\n        var button = document.querySelector('.ankihub-view-note');\n        container.style.marginBottom = 2 * button.offsetHeight + \"px\";\n    }\n</script>\n\n{{/ankihub_id}}\n<!-- END ANKIHUB MODFICATIONS -->\n\n<!--\nANKIHUB_END\nText below this comment will not be modified by AnkiHub or AnKing add-ons.\nDo not edit or remove this comment if you want to protect the content below.\n-->\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -193,7 +178,7 @@
                     "id": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Front}}\n\n<!--\nANKIHUB_END\nText below this comment will not be modified by AnkiHub or AnKing add-ons.\nDo not edit or remove this comment if you want to protect the content below.\n-->\n\n"
+                    "qfmt": "{{Front}}"
                 }
             ],
             "type": 0
@@ -204,968 +189,880 @@
             "__type__": "Note",
             "fields": [
                 "Definice Algoritmu",
-                "Konečná uspořádaná množina úplně definovaných pravidel pro vyřešení nějakého problému",
-                "d6f915f7-209c-4b59-9b72-f5d4da5bdfed"
+                "Konečná uspořádaná množina úplně definovaných pravidel pro vyřešení nějakého problému"
             ],
             "guid": "r0Zko@`es8",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vlastnosti Algoritmu",
-                "<ul><li>Správnost</li><li>Konečnost</li><li>Obecnost</li><li>Determinovanost</li><li>Resultativnost</li><li>Elementárnost</li></ul>",
-                "7a218891-7ede-4700-88e3-fec0494f33cc"
+                "<ul><li>Správnost</li><li>Konečnost</li><li>Obecnost</li><li>Determinovanost</li><li>Resultativnost</li><li>Elementárnost</li></ul>"
             ],
             "guid": "kJ^x6<iN8A",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Příklady programovacích technik",
-                "<ul><li>Rozděl a panuj</li><li>Dynamické programování</li><li>Hledání s Návratem</li></ul>",
-                "9fbaed03-2142-435e-9210-ad3223efd0dc"
+                "<ul><li>Rozděl a panuj</li><li>Dynamické programování</li><li>Hledání s Návratem</li></ul>"
             ],
             "guid": "A>>q8b39T,",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Příklady Algoritmů",
-                "<ul><li>Brute force</li><li>Binární dělení</li><li>Metoda 2 jezdců</li></ul>",
-                "e9cd136c-2626-4061-8d34-3e26298b7eb3"
+                "<ul><li>Brute force</li><li>Binární dělení</li><li>Metoda 2 jezdců</li></ul>"
             ],
             "guid": "tBqi<upyY{",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Datové struktury",
-                "<ul><li>Způsob uložení a organizace dat</li><li>Statické (pole)</li><li>Dynamické (seznam, binární vyhledávací strom)</li></ul>",
-                "208929a6-2fba-4834-a588-2b42c43ae19c"
+                "<ul><li>Způsob uložení a organizace dat</li><li>Statické (pole)</li><li>Dynamické (seznam, binární vyhledávací strom)</li></ul>"
             ],
             "guid": "GJxkJNw*l(",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Časté rozdíly v datových strukturách",
-                "<ul><li>Doba přístupu k jednotlivým položkám</li><li>Náročnost zachování uspořádanosti prvků při vkládání nových dat</li><li>Náročnost rušení prvků</li></ul>",
-                "b614ce7a-cd4c-4102-acd9-5be9ac54a416"
+                "<ul><li>Doba přístupu k jednotlivým položkám</li><li>Náročnost zachování uspořádanosti prvků při vkládání nových dat</li><li>Náročnost rušení prvků</li></ul>"
             ],
             "guid": "fDAM`vN<SW",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Heuristika",
-                "<ul><li>Postup, který nedává vždy přesné řešení problému (odhad)</li><li>Většinou dává v rozumném čase dostatečně přesné řešení, ale nalezení přesného řešení nezaručuje</li><li>Používáme, pokud pro daný problém není algoritmus/použítí algoritmu je neekonomické</li></ul>",
-                "275805f8-61f7-4f6c-8e14-3b6d7cd71c44"
+                "<ul><li>Postup, který nedává vždy přesné řešení problému (odhad)</li><li>Většinou dává v rozumném čase dostatečně přesné řešení, ale nalezení přesného řešení nezaručuje</li><li>Používáme, pokud pro daný problém není algoritmus/použítí algoritmu je neekonomické</li></ul>"
             ],
             "guid": "Exk,d/>Fh4",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Správnost algoritmu",
-                "Algoritmus vede ke správnému výsledku pro libovolný vstup",
-                "20aadf84-eb4b-4bc5-a76a-eb18519d5042"
+                "Algoritmus vede ke správnému výsledku pro libovolný vstup"
             ],
             "guid": "Ipdh@`H}go",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Časová složitost algoritmů",
-                "<ul><li>Řádový počet provedených operací v závislosti na vstupu pro nejhorší možný případ</li><li>Odvozena od počtu elementárních operací</li><li>Elementární operace jsou +,*,skoky, porovnání...</li></ul>",
-                "35a78e28-8a06-47a5-830f-c19b944e3a90"
+                "<ul><li>Řádový počet provedených operací v závislosti na vstupu pro nejhorší možný případ</li><li>Odvozena od počtu elementárních operací</li><li>Elementární operace jsou +,*,skoky, porovnání...</li></ul>"
             ],
             "guid": "q]yNrwgijj",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Určení časové složitosti",
-                "<ol><li>Zhodnotíme, jak měřit velikost vstupu</li><li>Určíme maximální možný počet elementárních kroků algoritmu provedených pro vstup o velikost n</li><li>Ve výsledné formuli ponecháme pouze nejrychleji rostoucí člen, ostatní zanedbáme</li><li>Seškrtáme multiplikativní konstanty</li></ol>",
-                "5e29b3ef-9aca-41b1-b1d3-014469b19a8e"
+                "<ol><li>Zhodnotíme, jak měřit velikost vstupu</li><li>Určíme maximální možný počet elementárních kroků algoritmu provedených pro vstup o velikost n</li><li>Ve výsledné formuli ponecháme pouze nejrychleji rostoucí člen, ostatní zanedbáme</li><li>Seškrtáme multiplikativní konstanty</li></ol>"
             ],
             "guid": "v=C>T<E|qn",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Průměrná časová složitost",
-                "<ul><li>Používáno u algoritmů, které pro různé vstupy stejné velikosti vykonají různý počet kroků</li><li>Aritmetický průměr časových nároků přes všechny vstupy danné velikosti</li></ul>",
-                "1d71d413-8e2e-40d5-abb9-124eb71e8ab3"
+                "<ul><li>Používáno u algoritmů, které pro různé vstupy stejné velikosti vykonají různý počet kroků</li><li>Aritmetický průměr časových nároků přes všechny vstupy danné velikosti</li></ul>"
             ],
             "guid": "gXA8VoWd%{",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Asymptotická časová složitost",
-                "<ul><li>Omikron - horní hranice</li><li>Omega - dolní hranice</li><li>Theta - dolní i horní hranice</li></ul>",
-                "9b1e8da1-0573-47ee-a836-f98de96e34cd"
+                "<ul><li>Omikron - horní hranice</li><li>Omega - dolní hranice</li><li>Theta - dolní i horní hranice</li></ul>"
             ],
             "guid": "B3r;$&8I]x",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Omikron",
-                "<div>(Big O, 'O)</div><div><ul><li>Horní hranice</li><li>Když funkce f(n) patří do složitosti O(g(n)), znamená to, že funkce f(n) roste maximálně tak rychle, jako funkce g(n)</li></ul><img src=\"paste-9fd8f3ad3e626c36cde41ad147dfe1773f1f6e7e.jpg\"><br></div>",
-                "0195f621-c759-464b-a076-a5584cbaf822"
+                "<div>(Big O, 'O)</div><div><ul><li>Horní hranice</li><li>Když funkce f(n) patří do složitosti O(g(n)), znamená to, že funkce f(n) roste maximálně tak rychle, jako funkce g(n)</li></ul><img src=\"paste-9fd8f3ad3e626c36cde41ad147dfe1773f1f6e7e.jpg\"><br></div>"
             ],
             "guid": "Deup*G7f]}",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Omega",
-                "<ul><li>Dolní hranice</li><li>Pokud f(n) Patří do&nbsp;Ω(g(n)), znamená to, že f(n) roste minimálně tak rychle, jako funkce g(n)</li></ul><img src=\"paste-065abfa5b89e9098d02b821138f1ae81b1b92fa5.jpg\"><br>",
-                "a394273d-3bfc-4683-9cc4-846bdd81ff4b"
+                "<ul><li>Dolní hranice</li><li>Pokud f(n) Patří do&nbsp;Ω(g(n)), znamená to, že f(n) roste minimálně tak rychle, jako funkce g(n)</li></ul><img src=\"paste-065abfa5b89e9098d02b821138f1ae81b1b92fa5.jpg\"><br>"
             ],
             "guid": "i76*[bvz0I",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Složitost Théta",
-                "<ul><li>Ohraničuje z obou stran</li><li>Pokud funkce f(n) platí do složitosti&nbsp;<b>Θ</b>(g(n)), znamená to, že f(n) roste stejně rychle, jako g(n)</li></ul><img src=\"paste-887344d7f248cfea33b290a0aade478f240d27e5.jpg\"><br>",
-                "8b273879-82b1-4893-a3a6-eb0706fd8b63"
+                "<ul><li>Ohraničuje z obou stran</li><li>Pokud funkce f(n) platí do složitosti&nbsp;<b>Θ</b>(g(n)), znamená to, že f(n) roste stejně rychle, jako g(n)</li></ul><img src=\"paste-887344d7f248cfea33b290a0aade478f240d27e5.jpg\"><br>"
             ],
             "guid": "v6%vH135k~",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Prostorová složitost algoritmu",
-                "<ul><li>Kolik nejvíce elementárních paměťových buněk algoritmus použije</li><ul><li>Elementární paměťová buňka: Proměnná typu int, float, byte...</li></ul></ul>",
-                "07890c52-fd13-459d-a4d1-ef0634c37a0c"
+                "<ul><li>Kolik nejvíce elementárních paměťových buněk algoritmus použije</li><ul><li>Elementární paměťová buňka: Proměnná typu int, float, byte...</li></ul></ul>"
             ],
             "guid": "eH]>Rk9}AS",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(1)",
-                "<ul><li>konstantní časová složitost</li></ul>",
-                "be49d167-67b7-4452-971c-c4465861d540"
+                "<ul><li>konstantní časová složitost</li></ul>"
             ],
             "guid": "gI@>=K}m{i",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(log(n))",
-                "<ul><li>logaritmická časová složitost</li><li>základ logaritmu není podstatný</li><li>rychlé vyhledávací algoritmy</li></ul>",
-                "9523f7f7-247e-4b2e-81e4-8d4905c2f13b"
+                "<ul><li>logaritmická časová složitost</li><li>základ logaritmu není podstatný</li><li>rychlé vyhledávací algoritmy</li></ul>"
             ],
             "guid": "vf{8}5WPB]",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(n)",
-                "<ul><li>lineární časová složitost</li><li>běžné vyhledávací algoritmy</li></ul>",
-                "3fa9eec8-566a-4d73-9a93-46f42a5e11c1"
+                "<ul><li>lineární časová složitost</li><li>běžné vyhledávací algoritmy</li></ul>"
             ],
             "guid": "eIg[GX/z,w",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(n*log(n))",
-                "<ul><li>linearitmická časová složitost</li><li>rychlé řadící algoritmy</li></ul>",
-                "4746fa22-c9b7-43c5-b3e4-29a3c67c6094"
+                "<ul><li>linearitmická časová složitost</li><li>rychlé řadící algoritmy</li></ul>"
             ],
             "guid": "A]i4+hjNM1",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(n<sup>2</sup>)&nbsp;",
-                "<ul><li>kvadratická časová složitost</li><li>jednoduché řadící algoritmy (např. bubble-sort)</li></ul>",
-                "c44c5899-fa8c-49e6-bbfb-b6b816472fff"
+                "<ul><li>kvadratická časová složitost</li><li>jednoduché řadící algoritmy (např. bubble-sort)</li></ul>"
             ],
             "guid": "u*Wr7b=)1O",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(n<sup>3</sup>)",
-                "<ul><li>kubická časová složitost</li><li>použitelné pouze pro málo rozsáhlé problémy</li></ul>",
-                "aa7dc9f5-12a5-4fb5-b151-d5f0e74fe8f6"
+                "<ul><li>kubická časová složitost</li><li>použitelné pouze pro málo rozsáhlé problémy</li></ul>"
             ],
             "guid": "ADLErF%3?_",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Θ(n<sup>k</sup>)",
-                "<ul><li>Exponenciální časová složitost</li><li>brute-force algorithms</li></ul>",
-                "f18ac0ee-536e-494d-988a-9d4b545b4b32"
+                "<ul><li>Exponenciální časová složitost</li><li>brute-force algorithms</li></ul>"
             ],
             "guid": "Hy4hi;S+4g",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Typy datových struktur",
-                "<ul><li>Homogenní x Heterogenní</li><li>Statické x Dynamické</li><li>Průchod: Algoritmus, který postupně projde všechny prvky datové struktury</li></ul>",
-                "413c0d1c-85b0-4bfd-9b2e-222fa26a4259"
+                "<ul><li>Homogenní x Heterogenní</li><li>Statické x Dynamické</li><li>Průchod: Algoritmus, který postupně projde všechny prvky datové struktury</li></ul>"
             ],
             "guid": "M4Tux~~Hhs",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vlastnosti pole",
-                "<ul><li>statická struktura</li><li>(+) Přímý přístup k jednotlivým prvkům&nbsp;</li><li>(-) Nezbytné přesuny segmentů pole, pokud vkládáme/odstraňujeme z konkrétní pozice</li><li>(-) Předem určený počet prvků</li></ul>",
-                "101fd2b3-cbe9-4f52-9e91-d14baeb15e23"
+                "<ul><li>statická struktura</li><li>(+) Přímý přístup k jednotlivým prvkům&nbsp;</li><li>(-) Nezbytné přesuny segmentů pole, pokud vkládáme/odstraňujeme z konkrétní pozice</li><li>(-) Předem určený počet prvků</li></ul>"
             ],
             "guid": "C=!FE%||1u",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Časová složitost operací nad polem:",
-                "<ul><li>Přístup k prvku: O(1)</li><li>Vyhledání prvku: O(n), seřazené pole O(log n)</li><li>Vkládání prvku: konec O(1), konkrétní pozice O(n)</li><li>Mazání prvku: prohození s posledním prvkem O(1), bez prohození O(n)</li></ul>",
-                "41f36cd6-3c78-4552-9768-7a6fe069b3f7"
+                "<ul><li>Přístup k prvku: O(1)</li><li>Vyhledání prvku: O(n), seřazené pole O(log n)</li><li>Vkládání prvku: konec O(1), konkrétní pozice O(n)</li><li>Mazání prvku: prohození s posledním prvkem O(1), bez prohození O(n)</li></ul>"
             ],
             "guid": "r`?c6OtUwN",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Nafukovací pole",
-                "<ul><li>chování jako dynamické pole</li><li>Když dojde místo, velikost pole se zdvojnásobí<br></li><li>Zvětšení pole může trvat dlouho -&gt; nelze použít v Realtime systémech</li></ul>",
-                "301d7e74-f0df-4575-a833-199ba0f62898"
+                "<ul><li>chování jako dynamické pole</li><li>Když dojde místo, velikost pole se zdvojnásobí<br></li><li>Zvětšení pole může trvat dlouho -&gt; nelze použít v Realtime systémech</li></ul>"
             ],
             "guid": "z0Cc/Ee;Ru",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Časová složitost operací nafukovacího pole",
-                "<ul><li>Přístup k prvku: O(1)&nbsp;</li><li>Vyhledání prvku: O(n), pro seřazené O(log n)</li><li>Vkládání prvku: amortizovaně konstantní O(1) (na konec pole)</li><li>Mazání prvku: amortizovaně konstantní O(1) (s prohozením prvků)</li><li>Vkládání prvku na určitou pozici: O(n)</li></ul>",
-                "ca4bdb6b-3a9c-417e-9fe6-06eabe413455"
+                "<ul><li>Přístup k prvku: O(1)&nbsp;</li><li>Vyhledání prvku: O(n), pro seřazené O(log n)</li><li>Vkládání prvku: amortizovaně konstantní O(1) (na konec pole)</li><li>Mazání prvku: amortizovaně konstantní O(1) (s prohozením prvků)</li><li>Vkládání prvku na určitou pozici: O(n)</li></ul>"
             ],
             "guid": "k=3oYlQtyu",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Amortizovaná časová složitost",
-                "<ul><li>Rozloží čas potřebný pro jednu drahou operaci do času potřebného pro všechny operace</li></ul>&nbsp; &nbsp; = Odhad času potřebného pro provedení nějaké posloupnosti operací<br><br>",
-                "ba8e2b24-7770-4dc6-92a3-79d78ff40eb1"
+                "<ul><li>Rozloží čas potřebný pro jednu drahou operaci do času potřebného pro všechny operace</li></ul>&nbsp; &nbsp; = Odhad času potřebného pro provedení nějaké posloupnosti operací<br><br>"
             ],
             "guid": "m3B<%yiLsa",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Spojový seznam",
-                "<ul><li>Dynamická datová struktura</li><li>Prvky provázaný pomocí ukazatelů</li><li>(+) Není potřeba definovat počet prvků</li><li>(+) Prvky lze snadno a libovolně vkládat/mazat</li><li>(-) Sekvenční přístup k jednotlivým prvkům</li><li>(-) Nepohodlná práce s ukazateli - Nutnost použít vhodný ADT</li></ul>",
-                "17d9672b-0940-4da8-9be0-678ee2dbc566"
+                "<ul><li>Dynamická datová struktura</li><li>Prvky provázaný pomocí ukazatelů</li><li>(+) Není potřeba definovat počet prvků</li><li>(+) Prvky lze snadno a libovolně vkládat/mazat</li><li>(-) Sekvenční přístup k jednotlivým prvkům</li><li>(-) Nepohodlná práce s ukazateli - Nutnost použít vhodný ADT</li></ul>"
             ],
             "guid": "dW#pY=%M7;",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Časová složitost operací Spojového seznamu",
-                "<ul><li>Přístup k prvku: O(n)</li><li>Vyhledání prvku: O(n)</li><li>Vkládání prvku O(1) (na aktuální/první pozici)</li><li>Mazání prvku: O(1) (na aktuální/první pozici)</li></ul>",
-                "ca40fcac-4e5c-4583-9109-fddcdbba396f"
+                "<ul><li>Přístup k prvku: O(n)</li><li>Vyhledání prvku: O(n)</li><li>Vkládání prvku O(1) (na aktuální/první pozici)</li><li>Mazání prvku: O(1) (na aktuální/první pozici)</li></ul>"
             ],
             "guid": "v.fOS,E3In",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Abstraktní datový typ",
-                "<ul><li>Definován množinou hodnot, kterých smí nabýt každý prvek tohoto typu, a množinou operací nad tímto typem</li><li>Smysl ADT</li><ul><li>Zvýšit datovou abstrakci</li><li>Snížit algoritmickou složitost programu</li></ul><li>Účel ADT</li><ul><li>zdůrazňuje \"co dělá\"</li><li>potlačuje \"jak to dělá\"</li><li>připomíná \"černou skříňku\"</li></ul></ul>",
-                "f0e0487f-0dd5-49fb-8e2c-2449f6258ca6"
+                "<ul><li>Definován množinou hodnot, kterých smí nabýt každý prvek tohoto typu, a množinou operací nad tímto typem</li><li>Smysl ADT</li><ul><li>Zvýšit datovou abstrakci</li><li>Snížit algoritmickou složitost programu</li></ul><li>Účel ADT</li><ul><li>zdůrazňuje \"co dělá\"</li><li>potlačuje \"jak to dělá\"</li><li>připomíná \"černou skříňku\"</li></ul></ul>"
             ],
             "guid": "DYA)3@UIo:",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Syntaxe a sémantika",
-                "<ul><li>Syntaxe vyjadřuje pravidla korektního zápisu jazykové konstrukce</li><li>Sémantika vyjadřuje účinek zápisu jazykové konstrukce</li></ul>",
-                "7a999918-d854-44a7-ba69-802c8e0b3175"
+                "<ul><li>Syntaxe vyjadřuje pravidla korektního zápisu jazykové konstrukce</li><li>Sémantika vyjadřuje účinek zápisu jazykové konstrukce</li></ul>"
             ],
             "guid": "wd_8@Vzvu1",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Syntaxe a sémantika u ADT",
-                "Specifikace syntaxe pro ADT:<br><ul><li>algebraická signatura</li><li>diagram signatury</li></ul>Specifikace sémantiky pro ADT:<br><ul><li>slovní popis</li><li>axiomatická specifikace</li><li>operační (funkční popis)</li></ul>",
-                "3e62d707-25a5-4edb-bcd3-111c8a765863"
+                "Specifikace syntaxe pro ADT:<br><ul><li>algebraická signatura</li><li>diagram signatury</li></ul>Specifikace sémantiky pro ADT:<br><ul><li>slovní popis</li><li>axiomatická specifikace</li><li>operační (funkční popis)</li></ul>"
             ],
             "guid": "r+C,rAcW=%",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Zásobník",
-                "<ul><li>Homogenní, dynamický, lineární datový typ</li><li>LIFO: Last In - First Out</li></ul>",
-                "243ca7ec-58c9-492a-95db-ccc2f081b4ad"
+                "<ul><li>Homogenní, dynamický, lineární datový typ</li><li>LIFO: Last In - First Out</li></ul>"
             ],
             "guid": "j0F5~SZU0p",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Použití zásobníku",
-                "<ul><li>Reverze pořadí prvků</li><li>Konstrukce (rekurzivních) funkcí</li><li>Vyčíslování aritmetických výrazů</li><li>Převod infixové notace na postfixovou či prefixovou</li><li>Operace Undo/Redo v editorech</li><li>Backtracking</li></ul>",
-                "19db8d5c-5d29-416b-be46-10b9316c865c"
+                "<ul><li>Reverze pořadí prvků</li><li>Konstrukce (rekurzivních) funkcí</li><li>Vyčíslování aritmetických výrazů</li><li>Převod infixové notace na postfixovou či prefixovou</li><li>Operace Undo/Redo v editorech</li><li>Backtracking</li></ul>"
             ],
             "guid": "p,~+,^;jTh",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "ADT TStack - diagram signatury",
-                "<img src=\"paste-08edd6f618db1b0b40a9d2048c48f3643fffe810.jpg\">",
-                "18266982-acdb-4dd3-a3ad-57b4d4578d4e"
+                "<img src=\"paste-08edd6f618db1b0b40a9d2048c48f3643fffe810.jpg\">"
             ],
             "guid": "xf`Yq:?jXC",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Sémantika operací - ADT TStack",
-                "<ul><li>InitStack(S) - vytvoří prázdný zásobník</li><li>Push(S,El) - vloží prvek El na vrchol zásobníku</li><li>Pop(S) - odstraní prvek z vrcholu zásobníku (při prázdném zásobníku bez účinku)</li><li>IsEmpty (S) - vrací <i>true</i>, když je zásobník prázdný, jinak <i>false</i></li><li>Top(S) - vrací hodnotu prvku na vrcholu zásobníku. Pro prázdný zásobník dojde k chybě. Operaci je třeba vždy ošetřit testem na neprázdnost zásobníku</li></ul>",
-                "59b42305-7c9e-4d9f-853e-6240502366f9"
+                "<ul><li>InitStack(S) - vytvoří prázdný zásobník</li><li>Push(S,El) - vloží prvek El na vrchol zásobníku</li><li>Pop(S) - odstraní prvek z vrcholu zásobníku (při prázdném zásobníku bez účinku)</li><li>IsEmpty (S) - vrací <i>true</i>, když je zásobník prázdný, jinak <i>false</i></li><li>Top(S) - vrací hodnotu prvku na vrcholu zásobníku. Pro prázdný zásobník dojde k chybě. Operaci je třeba vždy ošetřit testem na neprázdnost zásobníku</li></ul>"
             ],
             "guid": "ou03iZT9;0",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Implementace zásobníku Polem",
-                "<ul><li>Pseudodynamická datová struktura (Dynamická do konce vyčerpání alokovaného prostoru)<br></li><li>Doplnění množiny operací o predikát, signalizující naplnění alokovaného prostoru =&gt; nemožnost vložení dalšího prvku do zásobníku<br></li><li>IsFull(S) - vrací&nbsp;<i>true</i>&nbsp;když je zásobník plný, jinak&nbsp;<i>false</i></li></ul>",
-                "b92b56f6-c917-4ded-b161-8d5b897b4387"
+                "<ul><li>Pseudodynamická datová struktura (Dynamická do konce vyčerpání alokovaného prostoru)<br></li><li>Doplnění množiny operací o predikát, signalizující naplnění alokovaného prostoru =&gt; nemožnost vložení dalšího prvku do zásobníku<br></li><li>IsFull(S) - vrací&nbsp;<i>true</i>&nbsp;když je zásobník plný, jinak&nbsp;<i>false</i></li></ul>"
             ],
             "guid": "E?`D)_~P|W",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Implementace zásobníku polem",
-                "<img src=\"paste-5f80a427cc5da8b1b5882dbb51473806bfe35164.jpg\"><img src=\"paste-7ac3e1dca3b3b91a1b8a1206173e4076ab53c145.jpg\">",
-                "24b0a4ec-fa91-495f-a0b8-b8e6d0fdfb17"
+                "<img src=\"paste-5f80a427cc5da8b1b5882dbb51473806bfe35164.jpg\"><img src=\"paste-7ac3e1dca3b3b91a1b8a1206173e4076ab53c145.jpg\">"
             ],
             "guid": "q*,d)R4sJk",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Implementace Zásobníku seznamem",
-                "<img src=\"paste-e03410cd686c224a49854801b18be3724a24357e.jpg\"><img src=\"paste-7787f9353732e405d61c25353bd0b06053cb950b.jpg\"><br><img src=\"paste-56ffe1de8c19f8dae43d30b8d60a8ea6d890cc0a.jpg\"><img src=\"paste-6c3cf3704b9e3c524ef9c27aad1eba88eddc9885.jpg\">",
-                "8f8b8de5-7f71-45c5-a5f6-7706fac043e6"
+                "<img src=\"paste-e03410cd686c224a49854801b18be3724a24357e.jpg\"><img src=\"paste-7787f9353732e405d61c25353bd0b06053cb950b.jpg\"><br><img src=\"paste-56ffe1de8c19f8dae43d30b8d60a8ea6d890cc0a.jpg\"><img src=\"paste-6c3cf3704b9e3c524ef9c27aad1eba88eddc9885.jpg\">"
             ],
             "guid": "nN*C3vTTpE",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Typy notací",
-                "<ul><li>Infixová -&gt; a + b</li><li>Prefixová (polská) -&gt; + a b</li><li>Postfixová (obrácená polská -&gt; a b +</li></ul>",
-                "62df8f3f-9392-4e99-bb33-d739c5582b3e"
+                "<ul><li>Infixová -&gt; a + b</li><li>Prefixová (polská) -&gt; + a b</li><li>Postfixová (obrácená polská -&gt; a b +</li></ul>"
             ],
             "guid": "dJy>K$)#60",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Výhody postfixové notace",
-                "<ul><li>Neobsahuje závorky</li><li>Snadné vyčíslení - operace se zavádějí v pořadí operátorů v řetězci</li></ul><img src=\"paste-1297d417a329766cf772e4fa9e1c7ea7a539cb0d.jpg\"><br>",
-                "26cd96c8-6648-47a3-afd7-99120439146f"
+                "<ul><li>Neobsahuje závorky</li><li>Snadné vyčíslení - operace se zavádějí v pořadí operátorů v řetězci</li></ul><img src=\"paste-1297d417a329766cf772e4fa9e1c7ea7a539cb0d.jpg\"><br>"
             ],
             "guid": "B],)}UP#Zi",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Fronta - definice",
-                "<ul><li>Dynamická, homogenní a lineární struktura</li><li>FIFO - First in, First out</li><li>Na jedné straně se přidává</li><li>Na druhé straně se čte a odebírá</li></ul>",
-                "5dda89db-b847-4893-8803-e6dfef477d89"
+                "<ul><li>Dynamická, homogenní a lineární struktura</li><li>FIFO - First in, First out</li><li>Na jedné straně se přidává</li><li>Na druhé straně se čte a odebírá</li></ul>"
             ],
             "guid": "FQI[3!UL(g",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "<img src=\"paste-1bb7ba121bc8862c34a2a9b06a1960c6a836fbab.jpg\">",
-                "ADT TQueue - diagram signatury",
-                "b47c0acc-46d0-4741-b4ff-9ad0290e58f4"
+                "ADT TQueue - diagram signatury"
             ],
             "guid": "hWhm8>|]W~",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "ADT TQueue - sémantika operací",
-                "<ul><li>InitQueue(Q) - inicializace prázdné fronty</li><li>Add(Q,El) - vloží prvek El na konec fronty</li><li>IsEmpty(Q) - vrátí&nbsp;<i>true</i>&nbsp;pokud je fronta prázdná, jinak&nbsp;<i>false</i></li><li>Front(Q) - vrací hodnotku prvku na začátku fronty, nutno ošetřit testem na neprázdnost fronty</li><li>Remove(Q) - odstraní prvek ze začátku fronty (nedělá nic pro prázdnou frontu</li></ul>",
-                "4ecc56e7-5868-437b-9924-735a0990cb0a"
+                "<ul><li>InitQueue(Q) - inicializace prázdné fronty</li><li>Add(Q,El) - vloží prvek El na konec fronty</li><li>IsEmpty(Q) - vrátí&nbsp;<i>true</i>&nbsp;pokud je fronta prázdná, jinak&nbsp;<i>false</i></li><li>Front(Q) - vrací hodnotku prvku na začátku fronty, nutno ošetřit testem na neprázdnost fronty</li><li>Remove(Q) - odstraní prvek ze začátku fronty (nedělá nic pro prázdnou frontu</li></ul>"
             ],
             "guid": "d7n^OO%(3i",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Implementace polem",
-                "<img src=\"paste-f32c6ade5d0b81a80e63964c8dab4317764c7df6.jpg\">",
-                "d7d153e9-4ee0-4841-a5d9-c7f167b09930"
+                "<img src=\"paste-f32c6ade5d0b81a80e63964c8dab4317764c7df6.jpg\">"
             ],
             "guid": "C3u1Mu+ZbP",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Implementace seznamen",
-                "<img src=\"paste-5d3f25802bf8f134d0d3576fe64cd6dc1e681e31.jpg\">",
-                "f7585397-a6f0-4bed-a9ff-25e8c47f96d1"
+                "<img src=\"paste-5d3f25802bf8f134d0d3576fe64cd6dc1e681e31.jpg\">"
             ],
             "guid": "nLwhdBG<D<",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Oboustranná fronta",
-                "Oboustranný zásobník, head-tail linked list<br><ul><li>Fronta, u níž lze přidávat/odebírat prvky na obou koncích</li><li>Frontu nelze procházet a manipulovat s ní někde uvnitř</li><li>využívána např. při plánování procesů</li></ul>",
-                "4f37965e-a8e0-4aaa-b897-914bdcd50e62"
+                "Oboustranný zásobník, head-tail linked list<br><ul><li>Fronta, u níž lze přidávat/odebírat prvky na obou koncích</li><li>Frontu nelze procházet a manipulovat s ní někde uvnitř</li><li>využívána např. při plánování procesů</li></ul>"
             ],
             "guid": "w~n/#4;N&}",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Prioritní fronta",
-                "<ul><li>Prvkům fronty je přiřazena priorita</li><li>Prvky s vyšší prioritou přeskakují prvky s nižší prioritou a jsou obsluhovány dříve</li><li>První opouští frontu nejstarší prvek s nejvyšší prioritou</li></ul>",
-                "e9f4a0d8-c4ca-4855-bd52-d79b74693d2a"
+                "<ul><li>Prvkům fronty je přiřazena priorita</li><li>Prvky s vyšší prioritou přeskakují prvky s nižší prioritou a jsou obsluhovány dříve</li><li>První opouští frontu nejstarší prvek s nejvyšší prioritou</li></ul>"
             ],
             "guid": "BDhXs%|u5@",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Operace nad prioritní frontou",
-                "<ul><li>Inicializace: InitPriorityQueue</li><li>Vložení: AddwithPriority</li><li>Zpřístupnění hodnoty prvku: GetHighestPriorityElement</li><li>Mazání prvku: RemoveHighestPriorityElement</li><li>Predikát: IsEmpty</li></ul>",
-                "f0c83ecf-cc64-4a11-bca6-14f3337e4bda"
+                "<ul><li>Inicializace: InitPriorityQueue</li><li>Vložení: AddwithPriority</li><li>Zpřístupnění hodnoty prvku: GetHighestPriorityElement</li><li>Mazání prvku: RemoveHighestPriorityElement</li><li>Predikát: IsEmpty</li></ul>"
             ],
             "guid": "rLV#L6*]}L",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Způsoby implementace prioritní fronty",
-                "<ol><li>Nesetříděným polem/spojovým seznamem:</li><ul><li>Vložení prvku O(1)</li><li>Odebrání prvku s nejvyšší prioritou O(n)</li></ul><li>Setříděným polem/seznamem</li><ul><li>Vložení prvku: O(n)</li><li>Odebrání prvku s nejvyšší prioritou O(1)</li></ul><li>(binární) haldou</li><ul><li>vložení prvku: O(log n)</li><li>Odebrání libovolného prvku s nejvyšší prioritou: O(log n)</li><li>Nalezení minima: O(1)</li></ul></ol><br><br><br><br><br><br>",
-                "4f5dd6cf-e60a-4818-aad2-7ea526d30a6b"
+                "<ol><li>Nesetříděným polem/spojovým seznamem:</li><ul><li>Vložení prvku O(1)</li><li>Odebrání prvku s nejvyšší prioritou O(n)</li></ul><li>Setříděným polem/seznamem</li><ul><li>Vložení prvku: O(n)</li><li>Odebrání prvku s nejvyšší prioritou O(1)</li></ul><li>(binární) haldou</li><ul><li>vložení prvku: O(log n)</li><li>Odebrání libovolného prvku s nejvyšší prioritou: O(log n)</li><li>Nalezení minima: O(1)</li></ul></ol><br><br><br><br><br><br>"
             ],
             "guid": "wzF@FDGs0v",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vyhledávací tabulka&nbsp;",
-                "Search Table, Look-up table<br><ul><li>Homogenní, obecně dynamická struktura</li><li>Každá položka má zvláštní složku - klíče</li><li>V tabulce s ostrým vyhledáváním je hodnota klíče jedinečná</li><li>Základ databází</li></ul>",
-                "18228065-35f7-461f-856b-42b3e3ea1ff2"
+                "Search Table, Look-up table<br><ul><li>Homogenní, obecně dynamická struktura</li><li>Každá položka má zvláštní složku - klíče</li><li>V tabulce s ostrým vyhledáváním je hodnota klíče jedinečná</li><li>Základ databází</li></ul>"
             ],
             "guid": "ReSUF`adH|",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "ADDT TTable - diagram signatury",
-                "<img src=\"paste-1405eaa661bb27df7cd2c44428d32d455534b33a.jpg\">",
-                "4a3ad83c-42f0-41ff-b884-d28bcda673f6"
+                "<img src=\"paste-1405eaa661bb27df7cd2c44428d32d455534b33a.jpg\">"
             ],
             "guid": "dtwiLqs|m@",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "ADT TTable - sémantika operací",
-                "<ul><li>InitTable(T) - Inicializuje prázdnou tabulku položek se složkami: K<b>líč</b> K typu <i>TKey</i> a data <b>Data</b> typu <i>TData</i></li><li>Insert(T,K,Data) - vloží položku se složkami <b>K</b> a <b>Data</b> do tabulky <b>T</b>. Pokud už existuje položka s klíčem <b>K</b>, přepíše se položka <b>Data&nbsp;</b>- aktualizační sémantika operace insert</li><li>Delete(T,K) - zruší prvek s klíčem K, pokud prvek neexistuje, je bez účinku</li><li>Search(T,K) - vrací <i>True&nbsp;</i>pokud v tabulce je položka T s klíčem K, jinak vrací&nbsp;<i>False</i>&nbsp;</li><li>GetData(T,K) - vrátí hodnotu datové složky&nbsp;položky s klíčem K. Pokud položka neexistuje, dojde k chybě. Operaci je třeba ošetřit Search(T,K)</li></ul>",
-                "a0caf4f7-ac38-4d97-812f-41c136b29ddb"
+                "<ul><li>InitTable(T) - Inicializuje prázdnou tabulku položek se složkami: K<b>líč</b> K typu <i>TKey</i> a data <b>Data</b> typu <i>TData</i></li><li>Insert(T,K,Data) - vloží položku se složkami <b>K</b> a <b>Data</b> do tabulky <b>T</b>. Pokud už existuje položka s klíčem <b>K</b>, přepíše se položka <b>Data&nbsp;</b>- aktualizační sémantika operace insert</li><li>Delete(T,K) - zruší prvek s klíčem K, pokud prvek neexistuje, je bez účinku</li><li>Search(T,K) - vrací <i>True&nbsp;</i>pokud v tabulce je položka T s klíčem K, jinak vrací&nbsp;<i>False</i>&nbsp;</li><li>GetData(T,K) - vrátí hodnotu datové složky&nbsp;položky s klíčem K. Pokud položka neexistuje, dojde k chybě. Operaci je třeba ošetřit Search(T,K)</li></ul>"
             ],
             "guid": "cH`r%v&t$b",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vícerozměrná pole",
-                "Průchody:<br><ol><li>Po řádcích</li><ul><li>rychlost změny indexu se snižuje zprava doleva (nejrychleji se mění nejpravější index)</li></ul><li>Po sloupcích<br></li><ul><li>nejrychleji se mění nejlevější index</li></ul></ol><img src=\"paste-9b81b8e83ddca634ca0c3f391f7e5f0cc997efeb.jpg\"><br>",
-                "492cbb08-f5b6-4d36-a381-74dca0666d38"
+                "Průchody:<br><ol><li>Po řádcích</li><ul><li>rychlost změny indexu se snižuje zprava doleva (nejrychleji se mění nejpravější index)</li></ul><li>Po sloupcích<br></li><ul><li>nejrychleji se mění nejlevější index</li></ul></ol><img src=\"paste-9b81b8e83ddca634ca0c3f391f7e5f0cc997efeb.jpg\"><br>"
             ],
             "guid": "Q*h[~RIPWk",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Mapovací funkce",
-                "<ul><li>Převádí n-tici indexů prvku n-dimenzionálního pole na jeden index jednorozměrného pole</li><li>Závisí na tom, jak je n-dimenzionální pole uloženo v paměti (řádcově/sloupcově)</li><li>Zajišťuje zpřístupnění prvku pole (realizuje funkci selektoru)</li><li>Hodnota mapovací funkce se vyčísluje při každé referenci (odkazu) na indexovanou proměnnou. (může být náročné)</li></ul>",
-                "7d76d3fc-7b82-42e7-8c17-135ecb964adf"
+                "<ul><li>Převádí n-tici indexů prvku n-dimenzionálního pole na jeden index jednorozměrného pole</li><li>Závisí na tom, jak je n-dimenzionální pole uloženo v paměti (řádcově/sloupcově)</li><li>Zajišťuje zpřístupnění prvku pole (realizuje funkci selektoru)</li><li>Hodnota mapovací funkce se vyčísluje při každé referenci (odkazu) na indexovanou proměnnou. (může být náročné)</li></ul>"
             ],
             "guid": "snyM[4Cxe1",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Trojúhelníková matice",
-                "<ul><li>Běžné uložení celé matice N*N položek</li><li>Prostorově efektivní - prvky uloženy do 1-rozměrného pole za sebe</li><li>Potřeba prostor pouze pro (N/2)*(N+1)položek</li><li>Pro mapování po řádcích se použije funkce A[i,j]-&gt;V[i*(i+1)div2+j]</li></ul>",
-                "b657edc2-6a99-44d4-aa10-62d2a1b210c8"
+                "<ul><li>Běžné uložení celé matice N*N položek</li><li>Prostorově efektivní - prvky uloženy do 1-rozměrného pole za sebe</li><li>Potřeba prostor pouze pro (N/2)*(N+1)položek</li><li>Pro mapování po řádcích se použije funkce A[i,j]-&gt;V[i*(i+1)div2+j]</li></ul>"
             ],
             "guid": "tzUcvi!)Lt",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Řídké pole",
-                "<ul><li>Většina prvků má stejnou hodnotu</li><li>Prostorově efektivní uložení:</li><ul><li>Implementováno s použitím vyhledávací tabulky, v níž prvky pole tvoří hodnotu položek tabulky a index(y) tvoří klíč položky tabulky</li><li>Ukládány pouze nedominantní hodnoty</li><li>Horší Access Time k prvkům pole</li><li>Pro vícerozměrné pole lze použít mapovací funkci, která mapuje n-tici do jednoho indexu</li></ul></ul><img src=\"paste-ae50889d65d96d6deb2c035ac7a90dc39e985839.jpg\"><br>",
-                "7d271b44-b1e1-4f60-b0f9-7d59185a7840"
+                "<ul><li>Většina prvků má stejnou hodnotu</li><li>Prostorově efektivní uložení:</li><ul><li>Implementováno s použitím vyhledávací tabulky, v níž prvky pole tvoří hodnotu položek tabulky a index(y) tvoří klíč položky tabulky</li><li>Ukládány pouze nedominantní hodnoty</li><li>Horší Access Time k prvkům pole</li><li>Pro vícerozměrné pole lze použít mapovací funkci, která mapuje n-tici do jednoho indexu</li></ul></ul><img src=\"paste-ae50889d65d96d6deb2c035ac7a90dc39e985839.jpg\"><br>"
             ],
             "guid": "g7@#SzX_YT",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Nelineární datové typy",
-                "<ul><li>Data neuspořádána postupně - obecně 1 prvek lze připojit k n prvkům</li><li>Dovolují modelovat složitější vztahy mezi daty</li><li>Typické nelineární struktury:</li><ul><li>Graf</li><li>Kořenový strom</li><li>Binární strom</li><li>Halda</li></ul></ul>",
-                "82806d01-d8fe-45c7-bc71-abdc355e4b39"
+                "<ul><li>Data neuspořádána postupně - obecně 1 prvek lze připojit k n prvkům</li><li>Dovolují modelovat složitější vztahy mezi daty</li><li>Typické nelineární struktury:</li><ul><li>Graf</li><li>Kořenový strom</li><li>Binární strom</li><li>Halda</li></ul></ul>"
             ],
             "guid": "H,p`S##cO<",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Kořenový strom - definice",
-                "<ul><li>Souvislý acyklický graf, který má jeden zvláštní uzel, který se nazývá kořen</li></ul>",
-                "c88cfa12-8c84-40ff-bced-6b76bb12510f"
+                "<ul><li>Souvislý acyklický graf, který má jeden zvláštní uzel, který se nazývá kořen</li></ul>"
             ],
             "guid": "F;aH0H-jHl",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Kořenový strom&nbsp;",
-                "<ul><li>Kořen je takový uzel, že platí, že z každého uzlu stromu vede jen jedna cesta do kořene</li><li>Z každého uzlu vede jen 1 hrana směrem ke kořeni do otcovského uzlu</li><li>libovolný počet hran vede k synovským uzlům</li><li>Listy = uzly bez potomků</li><li>vnitřní uzly = uzly s potomky</li></ul>",
-                "85ac239d-3a3a-4ed0-b33b-49b9bfe43937"
+                "<ul><li>Kořen je takový uzel, že platí, že z každého uzlu stromu vede jen jedna cesta do kořene</li><li>Z každého uzlu vede jen 1 hrana směrem ke kořeni do otcovského uzlu</li><li>libovolný počet hran vede k synovským uzlům</li><li>Listy = uzly bez potomků</li><li>vnitřní uzly = uzly s potomky</li></ul>"
             ],
             "guid": "rJJUdsJ)/*",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vlastnosti stromů",
-                "<ul><li>Stupeň uzlu u - počet potomků uzlu u</li><li>speciální typy:</li><ul><li>Binární</li><li>2-3 stromy</li><li>B stromy</li></ul><li>Seřazený strom - kořenový strom, ve kterém jsou seřazeni mezi sebou potomci každého uzlu&nbsp;</li><li>cesta k uzlu u - posloupnost všech uzlů od kořene k uzlu u</li><li>Délka cesty - počet hran, které cesta obsahuje (počet uzlů - 1)</li><li>Průchod stromem - posloupnost všech uzlů stromu, v níže se žádný uzel nevyskytuje dvakrát</li></ul>",
-                "e1ccd53c-587f-47a5-b88d-94364bd08a42"
+                "<ul><li>Stupeň uzlu u - počet potomků uzlu u</li><li>speciální typy:</li><ul><li>Binární</li><li>2-3 stromy</li><li>B stromy</li></ul><li>Seřazený strom - kořenový strom, ve kterém jsou seřazeni mezi sebou potomci každého uzlu&nbsp;</li><li>cesta k uzlu u - posloupnost všech uzlů od kořene k uzlu u</li><li>Délka cesty - počet hran, které cesta obsahuje (počet uzlů - 1)</li><li>Průchod stromem - posloupnost všech uzlů stromu, v níže se žádný uzel nevyskytuje dvakrát</li></ul>"
             ],
             "guid": "y?9Y{BkZcj",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Výška stromu",
-                "<ul><li>Prázdný strom - 0</li><li>Pouze kořen - 1</li><li>jinak - počet hran od kořene k nejvzdálenějšímu uzlu + 1</li></ul>",
-                "d392beb6-2fa5-4ea8-9ef7-6127d418eca3"
+                "<ul><li>Prázdný strom - 0</li><li>Pouze kořen - 1</li><li>jinak - počet hran od kořene k nejvzdálenějšímu uzlu + 1</li></ul>"
             ],
             "guid": "Jl.vymP92+",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Rekurzivní definice binárního stromu:",
-                "Binární strom je buď prázdný, nebo sestávvá z jednoho uzlu zvaného kořen a dvou binárních podstromů - levého a pravého",
-                "85d81007-3943-4311-9d8b-ebb732bd51a0"
+                "Binární strom je buď prázdný, nebo sestávvá z jednoho uzlu zvaného kořen a dvou binárních podstromů - levého a pravého"
             ],
             "guid": "oU-+,|_jVa",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Složení binárního stromu",
-                "<ul><li>Kořen</li><li>neterminální uzly, mající ukazatel na 1 nebo 2 synovské</li><li>terminální uzly</li></ul>",
-                "0920ee30-d18d-4e21-a208-7d740b3dbf21"
+                "<ul><li>Kořen</li><li>neterminální uzly, mající ukazatel na 1 nebo 2 synovské</li><li>terminální uzly</li></ul>"
             ],
             "guid": "dZbsEFk;,x",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Váhová vyváženost stromu",
-                "<div>Binární strom je váhově vyvážený, když pro každý jeho uzel platí, že počty uzlů jeho levého a pravého podstromu se rovnají, nebo se liší právě o 1</div><div><img src=\"paste-7dce6d1df349e5f936a0df0ec7a771ea02e6f136.jpg\"><br></div>",
-                "cdac2ec5-681c-4bd3-9954-1ed1413e32ab"
+                "<div>Binární strom je váhově vyvážený, když pro každý jeho uzel platí, že počty uzlů jeho levého a pravého podstromu se rovnají, nebo se liší právě o 1</div><div><img src=\"paste-7dce6d1df349e5f936a0df0ec7a771ea02e6f136.jpg\"><br></div>"
             ],
             "guid": "Fc%95p7#wY",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Výšková vyváženost stromu",
-                "<ul><li>Binární strom je výškově vyvážený, když pro každý jeho uzel platí, že výška levého podstromu se rovná výšce pravého podstromu a nebo se liší právě o 1</li><li>Maximální výška vyvážených stromů: c*log(n)</li></ul><img src=\"paste-080d5c4587320c7bb3a0b00bb447596d0b1dc207.jpg\"><br>",
-                "968d4d42-0a3b-488e-b1d3-aa2b5e0d3cf9"
+                "<ul><li>Binární strom je výškově vyvážený, když pro každý jeho uzel platí, že výška levého podstromu se rovná výšce pravého podstromu a nebo se liší právě o 1</li><li>Maximální výška vyvážených stromů: c*log(n)</li></ul><img src=\"paste-080d5c4587320c7bb3a0b00bb447596d0b1dc207.jpg\"><br>"
             ],
             "guid": "v#N$S8SDzy",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Operace nad binárním stromem",
-                "Vkládání<br><ul><li>Vložený uzel je třeba navázat na jeho otce a případně na vkládaný uzel navázat syny</li></ul>Rušení<br><div><ul><li>Rušení listu (jednoduché, korekce ukazatele v otci)</li><li>Rušení uzlu s jedním synem (jednoduché, korekce ukazatele v otci)</li><li>Rušení uzlu s dvěma syny (složité)</li></ul>Vkládání/rušení</div><div><ul><li>Může porušit uspořádanost, nebo vyváženost stromu</li></ul></div>",
-                "de756709-fd8b-4aa0-9ad1-44483a96c979"
+                "Vkládání<br><ul><li>Vložený uzel je třeba navázat na jeho otce a případně na vkládaný uzel navázat syny</li></ul>Rušení<br><div><ul><li>Rušení listu (jednoduché, korekce ukazatele v otci)</li><li>Rušení uzlu s jedním synem (jednoduché, korekce ukazatele v otci)</li><li>Rušení uzlu s dvěma syny (složité)</li></ul>Vkládání/rušení</div><div><ul><li>Může porušit uspořádanost, nebo vyváženost stromu</li></ul></div>"
             ],
             "guid": "i_0!jO8x@<",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Průchody stromem",
-                "<ul><li>Do šířky (level-order)</li><li>Do hloubky (pre-order, in-order, post-order)</li></ul>",
-                "be9e2974-78a6-4c97-921e-abec42b4e7be"
+                "<ul><li>Do šířky (level-order)</li><li>Do hloubky (pre-order, in-order, post-order)</li></ul>"
             ],
             "guid": "FrGde2gVh3",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Další možné operace nad BS",
-                "<ul><li>binární vyhledávácí strom jako vyhledávací tabulka</li><li>InitTable, Insert, Search, GetData, Delete</li><li>Výška, ekvivalence (struktur) dvou BS, kopie BS, zrušení BS, váhová/výšková vyváženost BS</li></ul>",
-                "37064bbc-e12d-43b9-8c41-44bde535024b"
+                "<ul><li>binární vyhledávácí strom jako vyhledávací tabulka</li><li>InitTable, Insert, Search, GetData, Delete</li><li>Výška, ekvivalence (struktur) dvou BS, kopie BS, zrušení BS, váhová/výšková vyváženost BS</li></ul>"
             ],
             "guid": "hfZ+aYR*ZV",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Typy procházení BS",
-                "<img src=\"paste-8bfca3893340e67724a225901573abcbbf758884.jpg\">",
-                "ab560263-fe17-468d-aee9-610e9e7fa0dc"
+                "<img src=\"paste-8bfca3893340e67724a225901573abcbbf758884.jpg\">"
             ],
             "guid": "f&n<95OeZL",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Rekurzivní průchody BS (kód)",
-                "<img src=\"paste-4d771ab9606902ff423b2a5957d71e3a5bb71d82.jpg\">",
-                "a760d7fd-c9f4-4dab-98c8-8ba810aa9003"
+                "<img src=\"paste-4d771ab9606902ff423b2a5957d71e3a5bb71d82.jpg\">"
             ],
             "guid": "giss-N~~S?",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Nerekurzivní Preorder Binárního stromu (kód)",
-                "<img src=\"paste-78246241b829917441d084a9af9bc63141ff51a2.jpg\">",
-                "fd6e4a31-b23c-4fd4-9fa8-8448fd8184ad"
+                "<img src=\"paste-78246241b829917441d084a9af9bc63141ff51a2.jpg\">"
             ],
             "guid": "K}pH^|J)7O",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Nerekurzivní InOrder binárního stromu (kód)",
-                "<br><img src=\"paste-c700c780bfa4e5a21869efa0ab35eb3eb07136c3.jpg\">",
-                "907f10e2-517a-471b-8766-ac300c661034"
+                "<br><img src=\"paste-c700c780bfa4e5a21869efa0ab35eb3eb07136c3.jpg\">"
             ],
             "guid": "P2foEz5D[V",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Nerekurzivní PostOrder binárního stromu (kód)",
-                "<img src=\"paste-ddb8d81e10087ea562d2ad46fbbf61e81d84f133.jpg\">",
-                "7958d56b-fa0d-4164-84c0-964f3f802316"
+                "<img src=\"paste-ddb8d81e10087ea562d2ad46fbbf61e81d84f133.jpg\">"
             ],
             "guid": "hIEucZIi)3",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Lever-order průchod binárního stromu (kód)",
-                "<img src=\"paste-93dac68a2fab632fb82a72a7045f8d8f91c6c75e.jpg\">",
-                "7e963be8-8e05-42af-89d8-489facaa216b"
+                "<img src=\"paste-93dac68a2fab632fb82a72a7045f8d8f91c6c75e.jpg\">"
             ],
             "guid": "M17x5GFffF",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Výška stromu - rekurzivně (kód)",
-                "<img src=\"paste-54108eaa87976cff1bd66e5c491f4e5fdc59dca8.jpg\">",
-                "e21987c5-9f08-4278-b245-3db87d582bbd"
+                "<img src=\"paste-54108eaa87976cff1bd66e5c491f4e5fdc59dca8.jpg\">"
             ],
             "guid": "sQ$EN$&oHX",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Ekvivalence dvou BS (kód)",
-                "<img src=\"paste-c6d212c5b897d1d6f9ba004b4f257957ba2562e8.jpg\">",
-                "b3cdc2c3-6afa-4705-ab3a-962e0cbbe686"
+                "<img src=\"paste-c6d212c5b897d1d6f9ba004b4f257957ba2562e8.jpg\">"
             ],
             "guid": "wv#lEs}%v!",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Kopie BS (kód)",
-                "<img src=\"paste-586eeb6547fb971027ac4efdbeb5f21ab2659d3a.jpg\"><br><img src=\"paste-90c1197b255a1e64f46baf28181e63af7810012b.jpg\">",
-                "519caf9b-5ece-4d0f-be6e-b5ead1aa99d7"
+                "<img src=\"paste-586eeb6547fb971027ac4efdbeb5f21ab2659d3a.jpg\"><br><img src=\"paste-90c1197b255a1e64f46baf28181e63af7810012b.jpg\">"
             ],
             "guid": "g`1^9)ecpM",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Zrušení BS (kód)",
-                "<img src=\"paste-26f7a0c5b919afda7d62d1f29cc8c9401b3c8601.jpg\">",
-                "65709171-bfff-4d85-88d4-a4493533d096"
+                "<img src=\"paste-26f7a0c5b919afda7d62d1f29cc8c9401b3c8601.jpg\">"
             ],
             "guid": "e)@Rn>rn&E",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Test váhové vyváženosti BS(kód)",
-                "<img src=\"paste-cf8465ad060b60098b9ecc1db0b9ff7edbc50444.jpg\">",
-                "7026ec0b-69a1-4c54-9372-5d67e0e37312"
+                "<img src=\"paste-cf8465ad060b60098b9ecc1db0b9ff7edbc50444.jpg\">"
             ],
             "guid": "A8hLhySAk~",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Sekvenční metody implementace tabulky",
-                "<ul><li><div>Sekvenční vyhledávání v poli s adaptivním uspořádáním podle četnosti vyhledání</div></li><li><div>Sekvenční vyhledávání v poli seřazeném podle pravděpodobnosti vyhledání klíče</div></li><li><div>Sekvenční vyhledávání v seřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli se zarážkou</div></li></ul>",
-                "2644e6d5-7e5d-483c-9269-df53eba10bb6"
+                "<ul><li><div>Sekvenční vyhledávání v poli s adaptivním uspořádáním podle četnosti vyhledání</div></li><li><div>Sekvenční vyhledávání v poli seřazeném podle pravděpodobnosti vyhledání klíče</div></li><li><div>Sekvenční vyhledávání v seřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli</div></li><li><div>Sekvenční vyhledávání v neseřazeném poli se zarážkou</div></li></ul>"
             ],
             "guid": "E`S9j$ID(I",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Další Metody implementace tabulky",
-                "<ul><li>Binární vyhledávání v seřazeném poli</li><ul><li>normální binární vyhledávání</li><li>Djikstrova varianta binárního vyhledávání</li></ul><li>Binární vyhledávací stromy</li><li>Stromy s více klíči ve vrcholech</li><li>Hashovací tabulky</li></ul>",
-                "87852d7a-30ef-4050-a1de-3af4393a1070"
+                "<ul><li>Binární vyhledávání v seřazeném poli</li><ul><li>normální binární vyhledávání</li><li>Djikstrova varianta binárního vyhledávání</li></ul><li>Binární vyhledávací stromy</li><li>Stromy s více klíči ve vrcholech</li><li>Hashovací tabulky</li></ul>"
             ],
             "guid": "N9|G<jNw;C",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Vyhledávací algorimty",
-                "<ul><li>Základní struktura<br><img src=\"paste-c2c7a381da649a88b546b0d844d0c02e63f1a01c.jpg\"><br></li><li>Ošetření konce cyklu<br><img src=\"paste-e0efcb491e4757ed039dbc7a584844c2c7ed3ed2.jpg\"><img src=\"paste-56f76f4978deded2062757ba3f141b1e61478cfa.jpg\"><br><img src=\"paste-976efc024f242fc74d57968891933070c5cd17a4.jpg\"><br></li></ul>",
-                "118d6996-69c3-46f2-accd-9538869201a5"
+                "<ul><li>Základní struktura<br><img src=\"paste-c2c7a381da649a88b546b0d844d0c02e63f1a01c.jpg\"><br></li><li>Ošetření konce cyklu<br><img src=\"paste-e0efcb491e4757ed039dbc7a584844c2c7ed3ed2.jpg\"><img src=\"paste-56f76f4978deded2062757ba3f141b1e61478cfa.jpg\"><br><img src=\"paste-976efc024f242fc74d57968891933070c5cd17a4.jpg\"><br></li></ul>"
             ],
             "guid": "K.%;pW3b*f",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Sekvenční vyhledávání - Search",
-                "<img src=\"paste-8ade1144a9e0a0bffa585058a1ad1b887c372a1c.jpg\"><br>Pro vkládání<br><img src=\"paste-530d23f4dd50429179d3f8158ad9508695dbb0ee.jpg\">",
-                "84086578-fb73-4975-9da0-12497345dce6"
+                "<img src=\"paste-8ade1144a9e0a0bffa585058a1ad1b887c372a1c.jpg\"><br>Pro vkládání<br><img src=\"paste-530d23f4dd50429179d3f8158ad9508695dbb0ee.jpg\">"
             ],
             "guid": "I^2.*Ptb5`",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Sekvenční vyhledávání - Insert",
-                "<img src=\"paste-fb8d9637aabc01d8d51f9d7af64cd24f0eef97b0.jpg\">",
-                "d7322059-7269-4539-87ba-ba69bac549c4"
+                "<img src=\"paste-fb8d9637aabc01d8d51f9d7af64cd24f0eef97b0.jpg\">"
             ],
             "guid": "f%,{,eRK!{",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Sekvenční vyhledávání - Delete",
-                "<img src=\"paste-fc4e1fc701ba0f66fe28c804e04e6b560b707a02.jpg\"><br>Lze implementovat zaslepením<br><ul><li>Klíč rušené položky přepsán hodnotou, která nikdy nebude vyhledávána</li><li>Snižuje aktivní kapacitu tabulky</li></ul>",
-                "91db4bb5-dd18-4ad5-bd44-7e9562d379e2"
+                "<img src=\"paste-fc4e1fc701ba0f66fe28c804e04e6b560b707a02.jpg\"><br>Lze implementovat zaslepením<br><ul><li>Klíč rušené položky přepsán hodnotou, která nikdy nebude vyhledávána</li><li>Snižuje aktivní kapacitu tabulky</li></ul>"
             ],
             "guid": "JU}hlHQ:J{",
-            "note_model_uuid": "68b65ef6-cb6f-11ef-9ea6-776bb327a8d0",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
         }
     ],
