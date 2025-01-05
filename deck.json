@@ -95,7 +95,6 @@
         "paste-887344d7f248cfea33b290a0aade478f240d27e5.jpg",
         "paste-8ade1144a9e0a0bffa585058a1ad1b887c372a1c.jpg",
         "paste-8bfca3893340e67724a225901573abcbbf758884.jpg",
-        "paste-90c1197b255a1e64f46baf28181e63af7810012b.jpg",
         "paste-93dac68a2fab632fb82a72a7045f8d8f91c6c75e.jpg",
         "paste-976efc024f242fc74d57968891933070c5cd17a4.jpg",
         "paste-9b81b8e83ddca634ca0c3f391f7e5f0cc997efeb.jpg",
@@ -788,18 +787,20 @@
         {
             "__type__": "Note",
             "fields": [
-                "Kořenový strom - definice",
-                "<ul><li>Souvislý acyklický graf, který má jeden zvláštní uzel, který se nazývá kořen</li></ul>"
+                "Kořenový strom - Definice",
+                "<ul><li>Souvislý <b>acyklický graf</b>, který má jeden zvláštní uzel nazývaný <b>kořen</b> (angl. root)</li><li>Kořen je takový uzel, že platí, že z každého uzlu stromu vede jen jedna cesta do kořene</li><li>Z každého uzlu vede jen 1 hrana směrem ke kořeni do otcovského uzlu, libovolný počet hran vede k synovským uzlům</li><li>Listy - uzly bez potomků</li><li>Vnitřní uzly - uzly s potomky</li></ul>"
             ],
             "guid": "F;aH0H-jHl",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
+            "tags": [
+                "#4_lecture"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Kořenový strom&nbsp;",
-                "<ul><li>Kořen je takový uzel, že platí, že z každého uzlu stromu vede jen jedna cesta do kořene</li><li>Z každého uzlu vede jen 1 hrana směrem ke kořeni do otcovského uzlu</li><li>libovolný počet hran vede k synovským uzlům</li><li>Listy = uzly bez potomků</li><li>vnitřní uzly = uzly s potomky</li></ul>"
+                "Průchod stromem - Definice",
+                "Posloupnost všech uzlů stromu, v níž se žádný uzel nevyskytuje dvakrát."
             ],
             "guid": "rJJUdsJ)/*",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
@@ -853,7 +854,9 @@
             ],
             "guid": "Fc%95p7#wY",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
-            "tags": []
+            "tags": [
+                "#4_lecture"
+            ]
         },
         {
             "__type__": "Note",
@@ -978,8 +981,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Kopie BS (kód)",
-                "<img src=\"paste-586eeb6547fb971027ac4efdbeb5f21ab2659d3a.jpg\"><br><img src=\"paste-90c1197b255a1e64f46baf28181e63af7810012b.jpg\">"
+                "Rekurzivní kopie binárního stromu - kód",
+                "<img src=\"paste-586eeb6547fb971027ac4efdbeb5f21ab2659d3a.jpg\"><br>"
             ],
             "guid": "g`1^9)ecpM",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
@@ -1064,6 +1067,18 @@
             "guid": "JU}hlHQ:J{",
             "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cesta k uzlu, Délka cesty - definice",
+                "Cesta k uzlu<br><ul><li>Posloupnost všech uzlů od kořene k uzlu danému uzlu</li></ul>Délka cesty<br><ul><li>Počet hran, které cesta obsahuje</li><li>Počet uzlů - 1</li></ul>"
+            ],
+            "guid": "s_M<~f-|D~",
+            "note_model_uuid": "188e8620-15c5-11ef-9bed-f71adc4b3557",
+            "tags": [
+                "#4_lecture"
+            ]
         }
     ],
     "reviewLimit": null,
